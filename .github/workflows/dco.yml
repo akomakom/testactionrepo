@@ -4,7 +4,7 @@ on:
   
 jobs:
   check:
-    name: Ensure each commit is signed off
+    name: Ensure each commit is signed off according to https://github.com/quartz-scheduler/contributing/CONTRIBUTING.md
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
